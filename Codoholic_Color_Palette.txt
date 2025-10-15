@@ -1,0 +1,56 @@
+
+🎨 Codoholic Brand Palette & Design System
+------------------------------------------
+
+PRIMARY COLORS
+---------------
+Primary (Brand): #E67817
+    → Warm, energetic orange that represents creativity and innovation.
+Primary Hover: #D16510
+    → Slightly darker orange for hover or active states.
+
+SECONDARY COLORS
+-----------------
+Secondary (Accent): #2F80ED
+    → Balancing blue for links, secondary buttons, and icons.
+Success: #27AE60
+    → Used for success states or positive actions.
+Warning: #F2C94C
+    → For alerts or cautionary messages.
+Error: #EB5757
+    → Clean modern red for errors or failure states.
+
+NEUTRAL COLORS
+---------------
+Background Light: #F9FAFB
+    → Neutral off-white for app backgrounds.
+Background Dark: #121212
+    → Dark mode or contrast sections.
+Text Primary: #1A1A1A
+    → Almost black for main text.
+Text Secondary: #4F4F4F
+    → Muted gray for subtitles or labels.
+Border / Divider: #E0E0E0
+    → Soft gray for card borders or dividers.
+
+USAGE GUIDELINES
+----------------
+Logo:
+    Keep current design (Black + #E67817).
+Buttons (Primary):
+    Background: #E67817 | Hover: #D16510 | Text: #FFFFFF
+Buttons (Secondary):
+    Background: #2F80ED | Hover: #256DCB | Text: #FFFFFF
+Navbar / Header:
+    Background: #FFFFFF or #F9FAFB | Text: #1A1A1A | Accent: #E67817
+Links:
+    Default: #2F80ED | Hover: #256DCB
+Cards / Containers:
+    Background: #FFFFFF | Shadow: rgba(0,0,0,0.05)
+Footer:
+    Background: #121212 | Text: #FFFFFF | Accent: #E67817
+
+FONTS
+------
+Primary: Poppins or Inter
+Secondary (code): Roboto Mono
