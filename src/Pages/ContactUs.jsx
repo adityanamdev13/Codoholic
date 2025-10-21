@@ -5,6 +5,7 @@ const ContactUs = () => {
   return (
     <>
     <Banner BreadCrumb="Contact"title={"Contact Us"}/>
+    Contact
     </>
   )
 }

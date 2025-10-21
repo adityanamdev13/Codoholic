@@ -1,7 +1,7 @@
 import { LuCheckCheck } from "react-icons/lu";
 import { useNavigate } from "react-router-dom";
 
-const CompanyLogo = ({logo}) => {
+const CompanyLogo = ({logo,customStyle}) => {
    const navigate = useNavigate();
   return (
     <div className=" flex gap-1 items-center cursor-pointer" onClick={()=>navigate("/")}>
@@ -11,10 +11,10 @@ const CompanyLogo = ({logo}) => {
         className="h-20"
       />
       <div>
-        <h1 className="text-4xl font-bold">
+        <h1 className={`${customStyle?"text-3xl " :"text-4xl "}font-bold`}>
           <span className="text-[#E06C0E]">Co</span>doh
           <span className="relative">
-            <LuCheckCheck strokeWidth={2} size={18} color="#2F80ED" className="absolute top-1 left-[3px]" />o
+            <LuCheckCheck strokeWidth={2} size={18} color="#2F80ED" className="absolute top-[-2px] md:top-1 left-[3px]" />o
           </span>
           lic
         </h1>
